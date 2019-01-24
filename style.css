@@ -1,0 +1,32 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-image: url(header.jpg);
+	background-position: center;
+	background-size: 100%;
+}
+h1 {
+	color: white;
+	font-size: 40px;
+	font-family: "Arial";
+	display: flex;
+	justify-content: center;
+	margin-top: 6em;
+}
+header.title {
+	background-position: center;
+}
+
+.btn-warning {
+	background-position: center;
+	margin-top: 150px;
+	border-radius: 300px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	transform: scale(1.05);
+}
